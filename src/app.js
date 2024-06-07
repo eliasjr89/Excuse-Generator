@@ -1,3 +1,10 @@
+/* eslint-disable */
+import "bootstrap";
+import "./style.css";
+
+import "./assets/img/rigo-baby.jpg";
+import "./assets/img/4geeks.ico";
+
 function excuseGenerator() {
   let who = ["The dog", "My grandma", "The mailman", "My bird"];
   let action = ["ate", "peed", "crushed", "broke"];
@@ -16,6 +23,6 @@ function excuseGenerator() {
     what
   )} ${randomExcuse(when)}`;
   return excuse;
+  console.log("Hello Rigo from the console!");
 }
-
 document.getElementById("excuse").innerHTML = excuseGenerator();
