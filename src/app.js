@@ -5,7 +5,7 @@ import "./style.css";
 import "./assets/img/rigo-baby.jpg";
 import "./assets/img/4geeks.ico";
 
-function excuseGenerator() {
+window.onload = function excuseGenerator() {
   let who = ["The dog", "My grandma", "The mailman", "My bird"];
   let action = ["ate", "peed", "crushed", "broke"];
   let what = ["my homework", "my phone", "the car"];
